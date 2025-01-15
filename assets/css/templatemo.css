@@ -1,6 +1,8 @@
 /* General Styles */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 
 body {
   font-family: 'Roboto', Arial, sans-serif;
@@ -60,14 +62,18 @@ header nav ul {
 }
 
 header nav ul li a {
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.1em;
   color: #e91e63;
-  font-weight: bold;
+  font-weight: 700; /* Para que se vea más destacado */
+  text-transform: uppercase; /* Opcional, para mayúsculas */
 }
 
 header nav ul li a:hover {
-  color: #ad1457;
+  color: #ad1457; /* Color al pasar el mouse */
+  text-decoration: underline; /* Resalta el enlace */
 }
+
 
 /* Banner Section */
 .banner {
