@@ -1,5 +1,6 @@
 /* General Styles */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
 
 body {
   font-family: 'Roboto', Arial, sans-serif;
@@ -7,8 +8,16 @@ body {
   padding: 0;
   color: #333;
 }
+header h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em; /* Tamaño más grande para destacar */
+  color: #e91e63;
+  text-align: center;
+  margin: 0; /* Ajusta el espaciado si es necesario */
+}
 
-h1, h2, h3 {
+
+ h2, h3 {
   color: #2a2a2a;
   text-align: center;
   margin-bottom: 20px;
