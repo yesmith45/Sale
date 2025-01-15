@@ -62,6 +62,7 @@ header nav ul li a:hover {
 
 /* Banner Section */
 .banner {
+  background-image: url('ruta-de-la-imagen.jpg');
   background:#D8BFD8;
   color: white;
   text-align: center;
